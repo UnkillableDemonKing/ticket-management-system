@@ -1,0 +1,25 @@
+{
+  "name": "admin-side-its",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "draftjs-to-html": "^0.7.6",
+    "firebase": "^4.4.0",
+    "history": "^4.7.2",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-firebase-social-logins": "^1.0.0",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.0.13",
+    "reactstrap": "^4.8.0"
+  },
+  "scripts": {
+    "deploy": "firebase deploy",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

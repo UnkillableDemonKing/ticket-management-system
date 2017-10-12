@@ -1,0 +1,36 @@
+[debug] [2017-09-28T02:18:52.836Z] ----------------------------------------------------------------------
+[debug] [2017-09-28T02:18:52.839Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.2/bin/node /home/ubuntu/.nvm/versions/node/v6.11.2/bin/firebase serve
+[debug] [2017-09-28T02:18:52.840Z] CLI Version:   3.12.0
+[debug] [2017-09-28T02:18:52.840Z] Platform:      linux
+[debug] [2017-09-28T02:18:52.840Z] Node Version:  v6.11.2
+[debug] [2017-09-28T02:18:52.840Z] Time:          Thu Sep 28 2017 02:18:52 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:52.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-28T02:18:52.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-28T02:18:52.853Z] > authorizing via signed-in user
+[debug] [2017-09-28T02:18:52.855Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-28T02:18:52.855Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/HFDtc89NMLIlksBG_jyKS072JI0uf-o2C_s660TtTs4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Sep 28 2017 02:18:52 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:52.937Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-28T02:18:52.945Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/node-its-system  
+ Thu Sep 28 2017 02:18:52 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:53.702Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-28T02:18:53.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/node-its-system/tokens  
+ Thu Sep 28 2017 02:18:53 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:54.419Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/admin-side-its'...
+[info] 
+[debug] [2017-09-28T02:18:54.423Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/node-its-system  
+ Thu Sep 28 2017 02:18:54 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:55.329Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-28T02:18:55.330Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/585030439796/clients/_:getWebAppConfig  
+ Thu Sep 28 2017 02:18:55 GMT+0000 (UTC)
+[debug] [2017-09-28T02:18:56.318Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+

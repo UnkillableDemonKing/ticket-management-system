@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./darkness.png");
+}
+/* bootstrap.css */
+* {
+   font-size: 14px;
+   line-height: 1.428;
+}
+
+/* style.css */
+* {
+   font-size: 16px;
+   line-height: 2;
+}
